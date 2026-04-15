@@ -311,12 +311,37 @@ section{
 
 
 .chapter-image{
-  margin:20px 0;
-  text-align:center;
+  margin: 18px 0 18px;
+  text-align: center;
 }
 .chapter-image img{
+  display:block;
   width:100%;
-  max-width:700px;
-  border-radius:18px;
-  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+  max-width:760px;
+  margin:0 auto;
+  border-radius:20px;
+  box-shadow:0 14px 34px rgba(0,0,0,0.18);
+}
+
+
+.index-feature-image{
+  margin-top: 18px;
+  text-align: center;
+}
+.index-feature-image img{
+  display:block;
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  border-radius:24px;
+  box-shadow:0 18px 48px rgba(0,0,0,0.18);
+}
+
+
+.quiz-block{
+  margin-bottom:20px;
+}
+#result{
+  margin-top:20px;
+  font-weight:bold;
 }

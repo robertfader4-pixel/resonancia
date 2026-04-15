@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Тест по роману</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="container">
+<h1>Тест: что ты знаешь о романе?</h1>
+<p>Пройди тест и узнай, насколько глубоко ты понял историю.</p>
+</header>
+
+<main class="container">
+
+<form id="quiz">
+
+<div class="quiz-block">
+<p>1. Где происходит действие романа?</p>
+<label><input type="radio" name="q1"> Москва</label><br>
+<label><input type="radio" name="q1"> Санкт‑Петербург</label><br>
+<label><input type="radio" name="q1"> Киев</label>
+</div>
+
+<div class="quiz-block">
+<p>2. Кто главный герой?</p>
+<label><input type="radio" name="q2"> Роберт</label><br>
+<label><input type="radio" name="q2"> Луис</label><br>
+<label><input type="radio" name="q2"> Александр</label>
+</div>
+
+<div class="quiz-block">
+<p>3. Что является ключевой темой?</p>
+<label><input type="radio" name="q3"> Деньги</label><br>
+<label><input type="radio" name="q3"> Любовь и судьба</label><br>
+<label><input type="radio" name="q3"> Спорт</label>
+</div>
+
+<button type="button" onclick="finishTest()">Завершить</button>
+
+</form>
+
+<div id="result"></div>
+
+</main>
+
+<script>
+function finishTest(){
+  document.getElementById('result').innerHTML =
+  "<p>Спасибо за прохождение теста! Поделись результатом с автором Робертом Фадером.</p>";
+}
+</script>
+
+</body>
+</html>
