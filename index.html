@@ -31,6 +31,7 @@
           <div class="actions">
             <a class="btn btn-primary" href="#capitulos">Читать главы</a>
             <a class="btn btn-secondary" href="#autor">О произведении</a>
+            <button class="btn btn-primary" type="button" onclick="playChapterTrack(10)">Слушать «Резонанс любви»</button>
           </div>
           <div class="hero-cover">
             <img src="assets/img/cover.jpg" alt="Луис и Наталья на Невском проспекте">
@@ -54,9 +55,8 @@
           <div class="stat"><strong>Музыкальный альбом</strong>
 <div class="album-block">
   <img src="assets/img/album.jpg" alt="Альбом">
-  <p class="album-text">Роман вдохновлён музыкальным альбомом «Предчувствие». 
-  Атмосфера, эмоции и внутренние состояния героев напрямую связаны с его звучанием.</p>
-  <a class="btn btn-primary" href="https://music.yandex.ru/album/28071608" target="_blank">Слушать альбом</a>
+  <p class="album-text">Музыка романа собрана в обновлённой русской плейлисте. Главная тема «Резонанс любви» доступна прямо на этой странице.</p>
+  <a class="btn btn-primary" href="#" onclick="playChapterTrack(10); return false;">Слушать «Резонанс любви»</a>
 </div></div>
         </aside>
       </div>
@@ -197,7 +197,7 @@
       <div class="grid cards-3">
         <article class="info-card">
           <h3>Представление</h3>
-          <p class="author-copy">Здесь можно добавить имя, фотографию, краткую биографию и несколько строк о том, как родился этот роман.</p>
+          <p class="author-copy">Robert Fader — автор романа «Резонанс любви». Эта история соединяет романтическую линию Луиса и Натальи с мистической атмосферой Санкт-Петербурга, музыкой и внутренним светом, который ведёт героев через опасность.</p>
         </article>
         <article class="info-card">
           <h3>Эстетика произведения</h3>
@@ -205,7 +205,7 @@
         </article>
         <article class="info-card">
           <h3>Редактируемый блок</h3>
-          <p class="author-copy">Этот блок можно заменить ссылками, социальными сетями, другими книгами или издательской информацией.</p>
+          <p class="author-copy">Музыкальное сопровождение помогает читать главы как единое эмоциональное путешествие: каждая композиция открывает настроение отдельной сцены и усиливает романтический резонанс истории.</p>
         </article>
       </div>
     </section>
@@ -295,7 +295,7 @@
   <audio id="floatingAudio" preload="metadata"></audio>
 </div>
 
-  <script>window.PLAYLIST = [{"num": 1, "title": "Жажда спокойствия", "trackName": "Тема главы 01", "file": "assets/audio/cap01.mp3"}, {"num": 2, "title": "Красивое свидание", "trackName": "Тема главы 02", "file": "assets/audio/cap02.mp3"}, {"num": 3, "title": "Ускорение сердца", "trackName": "Тема главы 03", "file": "assets/audio/cap03.mp3"}, {"num": 4, "title": "Вперёд", "trackName": "Тема главы 04", "file": "assets/audio/cap04.mp3"}, {"num": 5, "title": "Новый энтузиазм", "trackName": "Тема главы 05", "file": "assets/audio/cap05.mp3"}, {"num": 6, "title": "Изменения", "trackName": "Тема главы 06", "file": "assets/audio/cap06.mp3"}, {"num": 7, "title": "Нерешительности", "trackName": "Тема главы 07", "file": "assets/audio/cap07.mp3"}, {"num": 8, "title": "Я по тебе скучаю", "trackName": "Тема главы 08", "file": "assets/audio/cap08.mp3"}, {"num": 9, "title": "Насыщенная душа", "trackName": "Тема главы 09", "file": "assets/audio/cap09.mp3"}, {"num": 10, "title": "Любовь — это боль", "trackName": "Тема главы 10", "file": "assets/audio/cap10.mp3"}, {"num": 11, "title": "Резонанс любви", "trackName": "Тема главы 11", "file": "assets/audio/cap11.mp3"}];</script>
+<script>window.PLAYLIST = [{"num":1,"title":"Жажда спокойствия","trackName":"Жажда спокойствия","file":"assets/audio/01.mp3"},{"num":2,"title":"Красивое свидание","trackName":"Насыщенная душа","file":"assets/audio/02.mp3"},{"num":3,"title":"Ускорение сердца","trackName":"Ускорение","file":"assets/audio/03.mp3"},{"num":4,"title":"Вперёд","trackName":"Вперёд","file":"assets/audio/04.mp3"},{"num":5,"title":"Новый энтузиазм","trackName":"Новый энтузиазм","file":"assets/audio/05.mp3"},{"num":6,"title":"Изменения","trackName":"Нерешительности","file":"assets/audio/06.mp3"},{"num":7,"title":"Нерешительности","trackName":"Нерешительности","file":"assets/audio/07.mp3"},{"num":8,"title":"Я по тебе скучаю","trackName":"Я по тебе скучаю","file":"assets/audio/08.mp3"},{"num":9,"title":"Насыщенная душа","trackName":"Насыщенная душа","file":"assets/audio/09.mp3"},{"num":10,"title":"Любовь — это боль","trackName":"Любовь — это боль","file":"assets/audio/10.mp3"},{"num":11,"title":"Резонанс любви","trackName":"Резонанс любви","file":"assets/audio/11.mp3"}];</script>
   <script>window.DEFAULT_TRACK_INDEX = 0;</script>
   <script src="assets/player.js"></script>
 
